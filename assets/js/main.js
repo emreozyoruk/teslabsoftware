@@ -141,3 +141,20 @@
 	
 })(jQuery);
 
+// Popup gösterme fonksiyonu
+function showPopup() {
+    var popup = document.getElementById("popup");
+    popup.style.display = "block";
+}
+
+// Popup'ı kapatma fonksiyonu
+function closePopup() {
+    var popup = document.getElementById("popup");
+    popup.style.display = "none";
+}
+
+// Kullanım şartlarına tıklanınca popup göster
+document.getElementById("showPopup").addEventListener("click", showPopup);
+
+// Kapatma düğmesine tıklanınca popup'ı kapat
+document.getElementById("closePopup").addEventListener("click", closePopup);
