@@ -158,3 +158,21 @@ document.getElementById("showPopup").addEventListener("click", showPopup);
 
 // Kapatma düğmesine tıklanınca popup'ı kapat
 document.getElementById("closePopup").addEventListener("click", closePopup);
+
+// Popup gösterme fonksiyonu
+function showPopup2() {
+    var popup = document.getElementById("popup2");
+    popup.style.display = "block";
+}
+
+// Popup'ı kapatma fonksiyonu
+function closePopup2() {
+    var popup2 = document.getElementById("popup2");
+    popup2.style.display = "none";
+}
+
+// Kullanım şartlarına tıklanınca popup göster
+document.getElementById("showPopup2").addEventListener("click", showPopup2);
+
+// Kapatma düğmesine tıklanınca popup'ı kapat
+document.getElementById("closePopup2").addEventListener("click", closePopup2);
